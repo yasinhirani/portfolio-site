@@ -64,6 +64,11 @@
 .main-footer{
   background-color:rgba(0, 0, 0, 0.2);
 }
+.footer-icons{
+  width: 2%;
+  margin-top: 20px;
+  margin-right: 20px;
+}
 .btn{
   border-color: #4d48a5;
   color: #4d48a5;
@@ -91,6 +96,12 @@
 .about-me p{
   font-size: 18px;
   font-weight: 400;
+}
+#my-email{
+  color: #4d48a5;
+}
+#my-email:hover{
+  cursor: pointer;
 }
 
 /* skills section */
@@ -137,6 +148,11 @@
   .text-main h2{
     font-size: 18px;
   }
+  .footer-icons{
+    width: 3%;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
 }
 @media only screen and (max-width: 550px) {
   .my_image img{
@@ -148,11 +164,16 @@
   .text-main h1{
     font-size: 20px;
   }
+  .footer-icons{
+    width: 5%;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
 }
-@media only screen and (min-height: 1000px) {
-  .main-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+@media only screen and (max-width: 550px) {
+  .footer-icons{
+    width: 7%;
+    margin-top: 20px;
+    margin-right: 20px;
   }
 }

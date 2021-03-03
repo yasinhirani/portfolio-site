@@ -21,6 +21,7 @@ const Sdata = [
         btnvisit:"Visit GitHub",
         linkgithub:"https://github.com/yasinhirani/weatherapp",
         btnlive:"Go Live",
+        linklive:"https://yasinhirani.github.io/weatherapp/",
     },
     {
         imgsrc: recipesearch,
@@ -29,6 +30,7 @@ const Sdata = [
         btnvisit:"Visit GitHub",
         linkgithub:"https://github.com/yasinhirani/food-recipe-search",
         btnlive:"Go Live",
+        linklive:"https://yasinhirani.github.io/food-recipe-search/",
     },
     {
         imgsrc: moviesearch,
@@ -37,6 +39,7 @@ const Sdata = [
         btnvisit:"Visit GitHub",
         linkgithub:"https://github.com/yasinhirani/movie_search",
         btnlive:"Go Live",
+        linklive:"https://yasinhirani.github.io/movie_search/",
     },
     {
         imgsrc: calculator,
@@ -45,6 +48,7 @@ const Sdata = [
         btnvisit:"Visit GitHub",
         linkgithub:"https://github.com/yasinhirani/calculator",
         btnlive:"Go Live",
+        linklive:"https://yasinhirani.github.io/calculator/",
     },
     {
         imgsrc: black,
