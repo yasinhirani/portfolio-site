@@ -7,7 +7,7 @@ import Footer from "./Footer";
 const Home = () => {
 
   useEffect(() => {
-    document.title="Yasin Hirani | Front-end developer";
+    document.title="Yasin Hirani | Front-end web developer";
   })
 
   return (
