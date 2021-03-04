@@ -18,6 +18,7 @@ const Projects = () => {
                 return <Card key={ind} imgsrc={val.imgsrc} title={val.title} btntitle={val.btnvisit} content={val.content}
                 btnlive={val.btnlive} linkgithub={val.linkgithub} linklive={val.linklive}/>;
               })}
+              <div className="d-flex justify-content-center"><a className="btn btn-outline-primary btn-see-all" href="https://github.com/yasinhirani" rel="noreferrer" target="_blank">See all projects here</a></div>
             </div>
           </div>
         </div>

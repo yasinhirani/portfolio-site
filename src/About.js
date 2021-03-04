@@ -29,7 +29,7 @@ const About = () => {
               </div>
               <div className="about-me">
                   <h5>Hi, I am <span id="my-name">Yasin Hirani</span></h5>
-                  <p>I have completed BCA(Bachelor in Computer Application) from Savritribai Phule Pune University.
+                  <p>I have completed BCA(Bachelor in Computer Application) from SSR college affilated to Savritribai Phule Pune University.
                     Besides that I am a self-taught Front-end web developer.</p>
                   <p>I love to explore new things in computers. I enjoy solving problems.</p>
                   <p>I love learning new Languages and new new stuffs in computers. I am very passionate about learning things.</p>

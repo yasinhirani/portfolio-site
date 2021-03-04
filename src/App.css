@@ -103,6 +103,9 @@
 #my-email:hover{
   cursor: pointer;
 }
+.btn-see-all:hover{
+  border-color: #4d48a5;
+}
 
 /* skills section */
 .skills{
