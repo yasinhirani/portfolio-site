@@ -13,6 +13,7 @@ const Sdata = [
         btnvisit:"Visit GitHub",
         linkgithub:"https://github.com/yasinhirani/portfolio-site",
         btnlive:"Go Live",
+        linklive:"https://yasinhirani.github.io/portfolio-site/",
     },
     {
         imgsrc: weather,
