@@ -1,10 +1,15 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Sdata from "./Sdata";
 import Card from "./Card";
 import "./App.css";
 import Footer from './Footer';
 
 const Projects = () => {
+
+  useEffect(() => {
+    document.title="Projects made by me";
+  })
+
   return (
     <>
       <div className="mt-3 mb-4">

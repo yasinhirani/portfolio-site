@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import ReactToolTip from 'react-tooltip';
 import "./App.css";
 import Image from "./Image";
@@ -16,6 +16,10 @@ const About = () => {
     document.execCommand('copy');
     textArea.remove();
   }
+
+  useEffect(() => {
+    document.title="About me";
+  })
 
   return (
     <>

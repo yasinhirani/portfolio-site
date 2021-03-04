@@ -1,10 +1,15 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./App.css";
 import web from "./assets/main-image.svg";
 import { NavLink } from "react-router-dom";
 import Footer from "./Footer";
 
 const Home = () => {
+
+  useEffect(() => {
+    document.title="Yasin Hirani | Front-end developer";
+  })
+
   return (
     <>
       <section
