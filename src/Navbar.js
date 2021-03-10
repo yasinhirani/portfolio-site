@@ -57,7 +57,7 @@ const Navbar = () => {
                   activeClassName="menu-active"
                   className="nav-link"
                   rel="noreferrer"
-                  href="https://drive.google.com/file/d/1-OpcvRCDR-uoqaOQfGdWqhtlvAYJFNwu/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1gO_8Fksu6eS6tgmvVP6sxPI9aroJieTJ/view?usp=sharing"
                   target="_blank"
                 >
                   Resume

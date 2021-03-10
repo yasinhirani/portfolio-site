@@ -9,7 +9,7 @@ const Sdata = [
     {
         imgsrc: portfoliomain,
         title:"My Portfolio Site",
-        content:"This is my portfolio site made in React.Js which describes me and contains details of all the projects made by me in the past few monts or years.",
+        content:"This is my portfolio site made in React.Js which describes me and contains details of all the projects made by me in the past few months or years.",
         btnvisit:"Visit GitHub",
         linkgithub:"https://github.com/yasinhirani/portfolio-site",
         btnlive:"Go Live",
