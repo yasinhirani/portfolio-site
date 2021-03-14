@@ -4,6 +4,8 @@ import "./App.css";
 import Image from "./Image";
 import Skills from './Skills';
 import Footer from './Footer';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const About = () => {
 
@@ -15,6 +17,15 @@ const About = () => {
     textArea.select();
     document.execCommand('copy');
     textArea.remove();
+    toast('Copied...', {
+      position: "top-center",
+      autoClose: 1000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      });
   }
 
   useEffect(() => {
@@ -38,8 +49,9 @@ const About = () => {
                   <p>I love to explore new things in computers. I enjoy solving problems.</p>
                   <p>I love learning new Languages and new new stuffs in computers. I am very passionate about learning things.</p>
                   <p>In my free time, Apart from learning web development, I love to watch south indian movies based on action and Romance.</p>
-                  <p>Feel free to contact me at: <span onClick={copyEmail} data-tip="click to copy" id="my-email">Hiraniyasin3854@gmail.com</span></p>
+                  <p>Feel free to contact me at: <span onClick={copyEmail} data-tip="click to copy" id="my-email">hiraniyasin3854@gmail.com</span></p>
                   <ReactToolTip effect='solid' />
+                  <ToastContainer />
                   <Skills />
               </div>
             </div>

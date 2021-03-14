@@ -3,7 +3,7 @@ import black from '../src/assets/black.PNG';
 import moviesearch from '../src/assets/movie.PNG'
 import portfoliomain from '../src/assets/portfoliomain.PNG'
 import recipesearch from '../src/assets/recipesearch.PNG'
-import calculator from '../src/assets/calculator.PNG'
+import todo from '../src/assets/todo.PNG'
 
 const Sdata = [
     {
@@ -43,13 +43,13 @@ const Sdata = [
         linklive:"https://yasinhirani.github.io/movie_search/",
     },
     {
-        imgsrc: calculator,
-        title:"Calculator",
-        content:"It is made in HTML,CSS and Javascript. It handles all the mathematical calculations for our daily needs and also contains the function to find out square root in just single click.",
+        imgsrc: todo,
+        title:"ToDo List",
+        content:"A simple ToDo List app made in React.Js used to enter things for our daily need. User can store and delete todo's as per his/her needs. It uses the LocalStorage to store all the todo's.",
         btnvisit:"Visit GitHub",
-        linkgithub:"https://github.com/yasinhirani/calculator",
+        linkgithub:"https://github.com/yasinhirani/todolist",
         btnlive:"Go Live",
-        linklive:"https://yasinhirani.github.io/calculator/",
+        linklive:"https://yasinhirani.github.io/todolist/",
     },
     {
         imgsrc: black,
