@@ -19,7 +19,7 @@ const Footer = () => {
         <a href="mailto:hiraniyasin3854@gmail.com" rel="noreferrer" target="_blank"><img className="footer-icons ml-4" src={mail} alt="github"/></a>
         <a href="https://github.com/yasinhirani" rel="noreferrer" target="_blank"><img className="footer-icons" src={github} alt="linkedin"/></a>
         <a href="https://www.linkedin.com/in/yasin-hirani-9832a418a/" rel="noreferrer" target="_blank"><img className="footer-icons" src={linkedin} alt="instagram"/></a>
-        <a href="https://twitter.com/HiraniYasin" rel="noreferrer" target="_blank"><img className="footer-icons" src={twitter} alt="instagram"/></a>
+        <a href="https://twitter.com/YasinHirani" rel="noreferrer" target="_blank"><img className="footer-icons" src={twitter} alt="instagram"/></a>
       </div>
       </div>
     </>
