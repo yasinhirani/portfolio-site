@@ -1,5 +1,5 @@
 import weather from '../src/assets/weather.PNG';
-import black from '../src/assets/black.PNG';
+import rock_paper_scissor from '../src/assets/rock_paper_scissor.PNG';
 import moviesearch from '../src/assets/movie.PNG'
 import portfoliomain from '../src/assets/portfoliomain.PNG'
 import recipesearch from '../src/assets/recipesearch.PNG'
@@ -52,13 +52,13 @@ const Sdata = [
         linklive:"https://yasinhirani.github.io/todolist/",
     },
     {
-        imgsrc: black,
-        title:"Dark website",
-        content:"I made this site at the initial stage when i stepped into learning web development using HTML and CSS. This was my first project after learning the basics of HTML and CSS.",
+        imgsrc: rock_paper_scissor,
+        title:"Rock Paper Scissor",
+        content:"This is Rock Paper Scissor game made in pure HTML,CSS and JAVACSRIPT. In this game the user can play against computer. If the user beats computer then he will get 1 point and vice-versa.",
         btnvisit:"Visit GitHub",
-        linkgithub:"https://github.com/yasinhirani/black-site",
+        linkgithub:"https://github.com/yasinhirani/rock_paper_scissor",
         btnlive:"Go Live",
-        linklive:"https://yasinhirani.github.io/black-site/",
+        linklive:"https://yasinhirani.github.io/rock_paper_scissor/",
     },
 ]
 export default Sdata;
