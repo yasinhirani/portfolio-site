@@ -18,9 +18,9 @@ const Home = () => {
       >
         <div className="container-fluid">
           <div className="row">
-            <div className="mx-auto">
+            <div className="col-12 col-md-10 mx-auto">
               <div className="row">
-                <div className="text-main col-7 p-1 p-lg-0 order-2 order-lg-1 d-flex justify-content-center align-items-center flex-column">
+                <div className="text-main col-7 p-1 p-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                   <h1>
                     Hi, I am <span id="my-name">Yasin Hirani</span>
                   </h1>
